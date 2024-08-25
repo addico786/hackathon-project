@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo"
+          >DocPort
+          <i class="fa-solid fa-file"></i>
+        </a>
+
+        <form action="search.html" method="post" class="search-form">
+          <input
+            type="text"
+            name="search_box"
+            required
+            placeholder="search courses..."
+            maxlength="100"
+          />
+          <button type="submit" class="fas fa-search"></button>
+        </form>
+
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+
+        <div class="profile">
+          <img src="images/pic-1.jpg" class="image" alt="" />
+          <h3 class="name">Virat</h3>
+          <p class="role">Studentt</p>
+          <a href="profile.html" class="btn">view profile</a>
+          <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div class="side-bar">
+      <div id="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <div class="profile">
+        <img src="images/pic-1.jpg" class="image" alt="" />
+        <h3 class="name">Steve</h3>
+        <p class="role">Student</p>
+        <a href="profile.html" class="btn">view profile</a>
+      </div>
+
+      <nav class="navbar">
+        <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+        <a href="about.html"
+          ><i class="fas fa-question"></i><span>about</span></a
+        >
+        <a href="courses.html"
+          ><i class="fas fa-graduation-cap"></i><span>Resource</span></a
+        >
+        <a href="teachers.html"
+          ><i class="fas fa-chalkboard-user"></i><span>Explore</span></a
+        >
+        <a href="upload.html"
+          ><i class="fas fa-upload"></i><span>Upload Assignment</span></a
+        >
+        <a href="contact.html"
+          ><i class="fas fa-headset"></i><span>contact us</span></a
+        >
+      </nav>
+    </div>
+
+    <section class="teachers">
+      <h1 class="heading">Explore Projects</h1>
+
+      <form action="" method="post" class="search-tutor">
+        <input
+          type="text"
+          name="search_box"
+          placeholder="search tutors..."
+          required
+          maxlength="100"
+        />
+        <button
+          type="submit"
+          class="fas fa-search"
+          name="search_tutor"
+        ></button>
+      </form>
+
+      <div class="box-container">
+        <div class="box offer">
+          <h3>Upload a Project</h3>
+          <p>
+            Easily share your work with your team or the community.Upload your
+            project files, share ideas, and collaborate effectively.
+            Upload/Continue
+          </p>
+          <a href="register.html" class="inline-btn">get started</a>
+        </div>
+
+        <div class="box">
+          <div class="tutor">
+            <img src="images/pic-2.jpg" alt="" />
+            <div>
+              <h3>Ahmed</h3>
+              <span><b>Web Developer</b></span>
+            </div>
+          </div>
+          <p>Shopify Clone</p>
+          <p>
+            Shopify clone is designed to replicate the core functionalities of
+            Shopify, enabling users to create and manage their own online
+            stores.
+          </p>
+          <a href="teacher_profile.html" class="inline-btn">view profile</a>
+        </div>
+
+        <div class="box">
+          <div class="tutor">
+            <img src="images/pic-3.jpg" alt="" />
+            <div>
+              <h3>Noor</h3>
+              <span><b>Full Stack</b></span>
+            </div>
+          </div>
+          <p>Netflix Clone</p>
+          <p>
+            A Netflix clone is a web application that mimics the core features
+            of Netflix, allowing users to browse, stream, and manage a library
+            of movies and TV shows.
+          </p>
+          <a href="teacher_profile.html" class="inline-btn">view profile</a>
+        </div>
+
+        <div class="box">
+          <div class="tutor">
+            <img src="images/pic-4.jpg" alt="" />
+            <div>
+              <h3>Nouman</h3>
+              <span><b>Game Developer</b></span>
+            </div>
+          </div>
+          <p>Shooter Game</p>
+          <p>
+            shooter game immerses players in a first-person perspective,
+            offering intense action, realistic environments, and strategic
+            combat, delivering an adrenaline-fueled experience in a virtual
+            battlefield.
+          </p>
+          <a href="teacher_profile.html" class="inline-btn">view profile</a>
+        </div>
+
+        <div class="box">
+          <div class="tutor">
+            <img src="images/pic-5.jpg" alt="" />
+            <div>
+              <h3>Adnan</h3>
+              <span><b>App Developer</b></span>
+            </div>
+          </div>
+          <p>ChatBot</p>
+          <p>
+            A chatbot app is an AI-powered tool that interacts with users via
+            text or voice, providing instant responses, solving queries, and
+            enhancing customer service experiences efficiently
+          </p>
+          <a href="teacher_profile.html" class="inline-btn">view profile</a>
+        </div>
+
+        <div class="box">
+          <div class="tutor">
+            <img src="images/pic-6.jpg" alt="" />
+            <div>
+              <h3>Aarav</h3>
+              <span><b>CyberSecurity</b></span>
+            </div>
+          </div>
+          <p>WiFi Hacking</p>
+          <p>
+            A WiFi hacking script automates the process of identifying and
+            exploiting vulnerabilities in wireless networks, often used for
+            ethical hacking to test security and strengthen defenses.
+          </p>
+          <a href="teacher_profile.html" class="inline-btn">view profile</a>
+        </div>
+
+        <div class="box">
+          <div class="tutor">
+            <img src="images/pic-7.jpg" alt="" />
+            <div>
+              <h3>Priya</h3>
+              <span><b>Web Designer</b></span>
+            </div>
+          </div>
+          <p>Responsive Website</p>
+          <p>
+            A responsive website adjusts its layout and design to fit any device
+            or screen size, ensuring an optimal user experience across desktops,
+            tablets, and smartphones
+          </p>
+          <a href="teacher_profile.html" class="inline-btn">view profile</a>
+        </div>
+
+        <div class="box">
+          <div class="tutor">
+            <img src="images/pic-8.jpg" alt="" />
+            <div>
+              <h3>Ananya</h3>
+              <span><b>BlockChain Developer</b></span>
+            </div>
+          </div>
+          <p>Bitcoin Project</p>
+          <p>
+            A blockchain project involving developing a decentralized system
+            that records and verifies transactions across a network of
+            computers, enhancing security in digital transactions.
+          </p>
+          <a href="teacher_profile.html" class="inline-btn">view profile</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      &copy; copyright @ 2024 by <span>The Tech Geeks</span> | all rights
+      reserved!
+    </footer>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
